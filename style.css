@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #0e0e0e;
+  color: #f2f2f2;
+  font-family: 'Inter', sans-serif;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8vw;
+}
+.hero h1 {
+font-family: 'Cormorant Garamond', serif;
+  font-size: 6.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
