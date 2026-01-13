@@ -23,9 +23,9 @@ background: #faf7f3;
 .scrap-paper-decor img {
   width: 800px;
   height: auto;
-  opacity: 1;
+  opacity: 0.5;
   object-fit: contain;
-  box-shadow: 0 10px 40px rgba(255, 240, 240, 0.1);
+  box-shadow: 0 10px 40px rgba(255, 236, 236, 0.1);
   transform: rotate(-15deg);
 }
 .intro {
