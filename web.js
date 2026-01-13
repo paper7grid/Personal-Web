@@ -18,3 +18,20 @@ frames.forEach(frame => {
   frame.classList.add('reveal');
   observer.observe(frame);
 });
+
+// Hide scroll arrow when user scrolls
+const scrollIndicator = document.querySelector('.scroll-indicator');
+const introSection = document.querySelector('.intro');
+
+window.addEventListener('scroll', () => {
+  if (introSection) {
+    const introBottom = introSection.offsetTop + introSection.offsetHeight;
+    if (window.scrollY > introBottom - window.innerHeight) {
+      scrollIndicator.style.opacity = '0';
+      scrollIndicator.style.pointerEvents = 'none';
+    } else {
+      scrollIndicator.style.opacity = '1';
+      scrollIndicator.style.pointerEvents = 'auto';
+    }
+  }
+});
