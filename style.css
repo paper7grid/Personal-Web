@@ -23,14 +23,14 @@ background: #fff6f6;
   letter-spacing: 0.3px;
 }
 .intro-line {
-  width: 720px;
+  width: 420px;
   height: 2px;
   background: rgba(36, 28, 28, 0.965);
  
 }
 .intro h1 {
 font-family: 'Cormorant Garamond', serif;
-  font-size: 7rem;
+  font-size: 6.5rem;
   font-weight: 600;
 
   letter-spacing: 3px;
@@ -78,7 +78,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .frame-links {
   display: flex;
-  position: left;
+  justify-content: center;
   gap: 12px;
   margin-top: 12px;
 }
