@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-background: #fff6f6; 
+background: #faf7f3; 
   color: #322626;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
@@ -37,7 +37,14 @@ font-family: 'Cormorant Garamond', serif;
   line-height: normal;
 }
 
-
+.personal-website {
+  font-family: 'WindSong', cursive;
+  font-weight: 500;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  display: inline;
+  white-space: nowrap;
+}
 
 .gallery {
   padding: 120px 6vw;
@@ -54,7 +61,7 @@ font-family: 'Cormorant Garamond', serif;
   gap: 40px;
 }
 .frame {
-  background: rgba(255, 120, 120, 0.05);
+  background: rgba(255, 120, 120, 0.112);
   border-radius: 20px;
   padding: 24px;
   opacity: 1;
@@ -87,13 +94,14 @@ font-family: 'Cormorant Garamond', serif;
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 10px;
+
   position: inherit;
   font-size: 0.85rem;
-  background: rgba(0,0,0,0.05);
+  background: rgba(255, 255, 255, 0.885);
   transition: all 0.3s ease;
 }
 .frame-links a:hover {
-  background: #ffabab;
+  background: #fda3a3;
   color: #ffffff;
   padding: 6px 18px;
 }
