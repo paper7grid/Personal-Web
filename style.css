@@ -12,19 +12,22 @@ background: #faf7f3;
 
 .scrap-paper-decor {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: -50px;
+  right: -100px;
   z-index: 10;
   pointer-events: none;
   display: flex;
   justify-content: flex-end;
+  transform: rotate(-25deg);
+  transition: opacity 0.6s ease;
 }
 
 .scrap-paper-decor img {
-  width: 600px;
+  width: 900px;
   height: auto;
   opacity: 0.9;
   object-fit: contain;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 .intro {
   min-height: 100vh;
