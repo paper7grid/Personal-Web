@@ -45,3 +45,21 @@ font-family: 'Cormorant Garamond', serif;
   grid-template-columns: repeat(3, 1fr);
   gap: 70px;
 }
+.frame {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 22px;
+  padding: 24px;
+  opacity: 0;
+  transform: translateY(70px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease,
+    box-shadow 0.6s ease;
+}
+.frame img {
+  width: 100%;
+  aspect-ratio: 706 / 490;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
