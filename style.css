@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #0e0e0e;
-  color: #f2f2f2;
+background: #fff6f6; 
+  color: #322626;
   font-family: 'Inter', sans-serif;
 }
 .hero {
@@ -46,7 +46,7 @@ font-family: 'Cormorant Garamond', serif;
   gap: 70px;
 }
 .frame {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 22px;
   padding: 24px;
   opacity: 0;
@@ -58,7 +58,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .frame img {
   width: 100%;
-  aspect-ratio: 706 / 490;
+  aspect-ratio: 703 / 485;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 18px;
@@ -75,12 +75,10 @@ font-family: 'Cormorant Garamond', serif;
   gap: 20px;
   margin-top: 18px;
 }
-.frame-links a {
-  font-size: 0.85rem;
-  text-decoration: none;
-  color: #f2f2f2;
-  border: 1px solid rgba(255,255,255,0.4);
-  padding: 7px 20px;
-  border-radius: 999px;
-  transition: all 0.3s ease;
+.frame-links a:hover {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.frame:hover {
+  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.12);
 }
