@@ -9,6 +9,20 @@ background: #faf7f3;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
+
+.scrap-paper-decor {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.scrap-paper-decor img {
+  width: 600px;
+  height: auto;
+  opacity: 0.9;
+}
 .intro {
   min-height: 100vh;
   display: flex;
