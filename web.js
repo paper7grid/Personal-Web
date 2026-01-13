@@ -1,4 +1,4 @@
-// Intersection Observer for frame reveal animation
+
 const frames = document.querySelectorAll('.frame');
 
 const observerOptions = {
