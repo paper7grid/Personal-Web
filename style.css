@@ -29,3 +29,19 @@ font-family: 'Cormorant Garamond', serif;
   opacity: 0.75;
   letter-spacing: 0.3px;
 }
+/* for the gallery: */
+
+.gallery {
+  padding: 120px 6vw;
+}
+
+.gallery h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  margin-bottom: 80px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
