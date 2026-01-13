@@ -26,6 +26,8 @@ background: #faf7f3;
   width: 420px;
   height: 2px;
   background: rgba(36, 28, 28, 0.965);
+  margin-bottom: 24px;
+  
  
 }
 .intro h1 {
@@ -40,10 +42,11 @@ font-family: 'Cormorant Garamond', serif;
 .personal-website {
   font-family: 'WindSong', cursive;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   letter-spacing: 1px;
   display: inline;
   white-space: nowrap;
+  
 }
 
 .gallery {
