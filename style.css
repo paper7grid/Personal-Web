@@ -16,12 +16,15 @@ background: #faf7f3;
   right: 20px;
   z-index: 10;
   pointer-events: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .scrap-paper-decor img {
   width: 600px;
   height: auto;
   opacity: 0.9;
+  object-fit: contain;
 }
 .intro {
   min-height: 100vh;

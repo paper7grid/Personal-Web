@@ -21,6 +21,7 @@ frames.forEach(frame => {
 
 // Hide scroll arrow when user scrolls
 const scrollIndicator = document.querySelector('.scroll-indicator');
+const scrapPaperDecor = document.querySelector('.scrap-paper-decor');
 const introSection = document.querySelector('.intro');
 
 window.addEventListener('scroll', () => {
@@ -29,9 +30,13 @@ window.addEventListener('scroll', () => {
     if (window.scrollY > introBottom - window.innerHeight) {
       scrollIndicator.style.opacity = '0';
       scrollIndicator.style.pointerEvents = 'none';
+      scrapPaperDecor.style.opacity = '0';
+      scrapPaperDecor.style.pointerEvents = 'none';
     } else {
       scrollIndicator.style.opacity = '1';
       scrollIndicator.style.pointerEvents = 'auto';
+      scrapPaperDecor.style.opacity = '0.9';
+      scrapPaperDecor.style.pointerEvents = 'none';
     }
   }
 });
