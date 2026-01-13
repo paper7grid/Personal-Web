@@ -47,10 +47,10 @@ font-family: 'Cormorant Garamond', serif;
   gap: 40px;
 }
 .frame {
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 22px;
+  background: rgba(255, 120, 120, 0.05);
+  border-radius: 20px;
   padding: 24px;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(70px);
   transition:
     opacity 0.8s ease,
@@ -79,7 +79,8 @@ font-family: 'Cormorant Garamond', serif;
 .frame-links a {
   text-decoration: none;
   padding: 6px 14px;
-  border-radius: 20px;
+  border-radius: 10px;
+  position: inherit;
   font-size: 0.85rem;
   background: rgba(0,0,0,0.05);
   transition: all 0.3s ease;
