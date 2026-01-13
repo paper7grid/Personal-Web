@@ -82,3 +82,28 @@ font-family: 'Cormorant Garamond', serif;
 .frame:hover {
   box-shadow: 0 35px 70px rgba(0, 0, 0, 0.12);
 }
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+footer {
+  background: #f2e4e4;
+  padding: 30px 6vw;
+  text-align: center;
+}
+.contact {
+  padding: 90px 6vw 60px;
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
+.contact a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.contact a:hover {
+  opacity: 1;
+}
