@@ -25,7 +25,8 @@ background: #fff6f6;
 .intro h1 {
 font-family: 'Cormorant Garamond', serif;
   font-size: 6.5rem;
-  font-weight: 700;
+  font-weight: 600;
+    margin-bottom: 20px;
   letter-spacing: 2px;
 }
 
@@ -69,6 +70,13 @@ font-family: 'Cormorant Garamond', serif;
   letter-spacing: 1px;
 }
 .frame-links {
+  display: flex;
+  position: left;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.frame-links a {
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 20px;
@@ -77,18 +85,17 @@ font-family: 'Cormorant Garamond', serif;
   transition: all 0.3s ease;
 }
 .frame-links a:hover {
-  background: #1a1a1a;
+  background: #ffabab;
   color: #ffffff;
+  padding: 6px 18px;
 }
-.frame:hover {
-  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.12);
-}
+
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
 }
 footer {
-  background: #f2e4e4;
+  background: #ff9d9d;
   padding: 30px 6vw;
   text-align: center;
 }
@@ -100,7 +107,7 @@ footer {
 }
 
 .contact a {
-  color: #1a1a1a;
+  color: #f4f4f4;
   text-decoration: none;
   border-bottom: 1px solid rgba(0,0,0,0.4);
 }
