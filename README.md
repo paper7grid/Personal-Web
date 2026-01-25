@@ -1,1 +1,3 @@
-# Personal-Web
+# Personal-We
+Hi! This is my personal website! I have included some projects that I have worked on in the past year! My theme was minimalistic beige and I have used google fonts for the heading and other texts. I have also tried to incoroprate gallery theme for my projects to have and used canva to edit the pictures. There are two links as you scroll down to view my webpage: one is for the github repository and another is a live demo for you to try out!
+I hope you like my personal webiste!!
