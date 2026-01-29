@@ -198,6 +198,7 @@ footer {
 .scrapbook {
   padding: 120px 6vw;
   background: #f7eada;
+  max-width: auto;
 }
 .scrapbook-inner h2 {
   font-family: 'Cedarville Cursive', cursive;
@@ -219,6 +220,7 @@ footer {
   padding: 26px;
   border-radius: 5px;
   background-color: #fff9f1d5;
+ 
 }
 
 .scrapbook-frame iframe {
