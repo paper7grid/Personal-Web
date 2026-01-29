@@ -258,7 +258,7 @@ footer {
 .doodle2 {
   position: absolute;
   right: -100px;
-  top: 600px;
+  top: 650px;
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
   pointer-events: none;
