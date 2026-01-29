@@ -197,7 +197,7 @@ footer {
 }
 .scrapbook {
   padding: 120px 6vw;
-  background: #e2d5c4;
+  background: #f7eada;
 }
 .scrapbook-inner h2 {
   font-family: 'Cedarville Cursive', cursive;
@@ -217,7 +217,7 @@ footer {
 }
 .scrapbook-frame {
   padding: 26px;
-  border-radius: 22px;
-  background-color: #f5c3c3;
+  border-radius: 5px;
+  background-color: #fff9f1d5;
 }
 
