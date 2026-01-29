@@ -196,5 +196,14 @@ footer {
   }
 }
 .scrapbook {
-  
+  padding: 120px 6vw;
+  background: #e2d5c4;
+}
+.scrapbook-inner h2 {
+  font-family: 'WindSong', cursive;
+  font-weight: 300;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  display: inline;
+  white-space: nowrap;
 }
