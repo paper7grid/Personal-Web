@@ -70,6 +70,7 @@ font-family: 'Cormorant Garamond', serif;
 
 .gallery {
   padding: 120px 6vw;
+  position: relative;
 }
 
 .gallery h2 {
@@ -237,14 +238,19 @@ footer {
 .doodle {
   position: absolute;
   right: 4vw;
-  bottom: -40px;
-  opacity: 0;
+  bottom: -5px;
+
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
   pointer-events: none;
 }
 .doodle img {
-  width: 1000%;
-  height: auto;
+  width: 120%;
+  height: 120%;
 
+}
+@media (max-width: 700px) {
+  .doodle {
+    display: none;
+  }
 }
