@@ -243,3 +243,8 @@ footer {
   transition: opacity 0.8s ease, transform 0.8s ease;
   pointer-events: none;
 }
+.doodle img {
+  width: 1000%;
+  height: auto;
+
+}
