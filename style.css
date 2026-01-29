@@ -208,5 +208,9 @@ footer {
   white-space: nowrap;
 }
 .scrapbook-desc {
-  
+  font-family: 'Nunito', sans-serif;
+  margin-top: 24px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
 }
