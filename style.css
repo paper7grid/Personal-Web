@@ -77,7 +77,14 @@ font-family: 'Cormorant Garamond', serif;
   font-size: 4.2rem;
   margin-bottom: 80px;
 }
-.
+.gallery-desc {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 14px;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #3d2a2a;
+}
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -97,7 +104,7 @@ font-family: 'Cormorant Garamond', serif;
 .frame img {
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 706 / 490;
+  aspect-ratio: 756 / 490;
   object-fit: cover;
 }
 .frame-title {
