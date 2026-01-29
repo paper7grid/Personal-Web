@@ -230,8 +230,13 @@ footer {
   background-color: #fff9f1d5;
  
 }
-
 .scrapbook-frame iframe {
   width: 100%;
   height: 900px;
+}
+.doodle {
+  position: absolute;
+  right: 4vw;
+  bottom: -40px;
+
 }
