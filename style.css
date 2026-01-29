@@ -200,7 +200,7 @@ footer {
   background: #e2d5c4;
 }
 .scrapbook-inner h2 {
-  font-family: 'WindSong', cursive;
+  font-family: 'Cedarville Cursive', cursive;
   font-weight: 300;
   font-size: 3.5rem;
   letter-spacing: 1px;
@@ -212,5 +212,11 @@ footer {
   margin-top: 24px;
   font-size: 1.5rem;
   line-height: 1.6;
+  color: #322626;
 
+}
+.scrapbook-frame {
+  padding: 26px;
+  border-radius: 22px;
+  background-color: #f4c6c6;
 }
